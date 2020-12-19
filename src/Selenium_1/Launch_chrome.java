@@ -9,6 +9,7 @@ public class Launch_chrome {
         System.setProperty("webdriver.chrome.driver","Driver/chromedriver");
         ChromeDriver cd = new ChromeDriver();
         cd.get("https://www.gmail.com");
+
         cd.manage().window().maximize();
 
     }
